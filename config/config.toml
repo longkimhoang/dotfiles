@@ -27,6 +27,7 @@ builtin = "history-watch"
 "brew:aria2" = "latest"
 "brew:age" = "latest"
 "brew:age-plugin-se" = "latest"
+"brew:tree-sitter-cli" = "latest"
 
 "brew-cask:ghostty" = "latest"
 "brew-cask:google-chrome" = "latest"
