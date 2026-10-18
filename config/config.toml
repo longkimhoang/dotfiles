@@ -1,6 +1,7 @@
 [dotfiles]
-"~/.config/mise/config.toml" = { mode = "track" }
+"~/.zshenv/local-bin" = { line = 'export PATH="$HOME/.local/bin:$PATH"' }
 "~/.zshrc" = { mode = "track" }
+"~/.config/mise/config.toml" = { mode = "track" }
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
