@@ -19,6 +19,7 @@ builtin = "history-watch"
 "rust" = "latest"
 "node" = "latest"
 "go" = "latest"
+"python" = "latest"
 
 "uv" = "latest"
 "claude" = "latest"
