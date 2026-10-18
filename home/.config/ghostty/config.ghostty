@@ -4,5 +4,5 @@ font-weight = Regular
 
 theme = light:Rose Pine Dawn,dark:Rose Pine
 
-background-blur = macos-glass-clear
+background-blur = macos-glass-regular
 
