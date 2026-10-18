@@ -8,10 +8,21 @@
       "variants": []
     },
     {
-      "path": "home/.claude/settings.json",
+      "path": "home/.claude",
       "autosave": true,
       "encrypt": false,
-      "variants": []
+      "variants": [],
+      "exclude": [
+        "/skills/synced"
+      ],
+      "include": [
+        "settings.json",
+        "CLAUDE.md",
+        "keybindings.json",
+        "commands/**",
+        "agents/**",
+        "skills/**"
+      ]
     },
     {
       "path": "home/.config/ghostty/config.ghostty",
