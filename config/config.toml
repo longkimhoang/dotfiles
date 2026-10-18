@@ -38,6 +38,7 @@ builtin = "history-watch"
 "brew-cask:protonvpn" = "latest"
 "brew-cask:raycast" = "latest"
 "brew-cask:claude" = "latest"
+"brew-cask:betterdisplay" = "latest"
 
 "brew-cask:font-paper-mono" = "latest"
 
