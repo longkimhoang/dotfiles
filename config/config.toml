@@ -52,6 +52,8 @@ zsh = true
 [bootstrap.macos.launchd.agents.tailscale]
 program = "tailscaled"
 run_at_load = true
+stdout_path = "/opt/homebrew/var/log/tailscaled.log"
+stderr_path = "/opt/homebrew/var/log/tailscaled.log"
 
 [history.encryption]
 recipients = [
