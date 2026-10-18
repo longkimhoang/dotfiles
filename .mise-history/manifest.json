@@ -8,26 +8,6 @@
       "variants": []
     },
     {
-      "path": "home/.claude",
-      "autosave": true,
-      "encrypt": false,
-      "variants": [],
-      "exclude": [
-        "/skills/synced",
-        ".trash",
-        ".credentials.json",
-        "settings.local.json"
-      ],
-      "include": [
-        "settings.json",
-        "CLAUDE.md",
-        "keybindings.json",
-        "commands/**",
-        "agents/**",
-        "skills/**"
-      ]
-    },
-    {
       "path": "home/.config/ghostty/config.ghostty",
       "autosave": true,
       "encrypt": false,
@@ -49,7 +29,6 @@
   "exclude": [],
   "recipients": [],
   "permissions": {
-    "home/.claude/settings.json": 384,
     "home/.config": 489
   }
 }
