@@ -17,5 +17,7 @@ builtin = "history-watch"
 "brew-cask:bitwarden" = "latest"
 "brew-cask:protonvpn" = "latest"
 
+"brew-cask:font-paper-mono" = "latest"
+
 [bootstrap.mise_shell_activate]
 zprofile = "shims"
