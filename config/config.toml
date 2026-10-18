@@ -7,7 +7,7 @@
 "~/.zshrc/zoxide" = { line = 'eval "$(zoxide init zsh)"' }
 "~/.zshrc/aliases" = { block = '''
 alias vi = 'nvim'
-alias vim ' nvim'
+alias vim 'nvim'
 ''' }
 
 [bootstrap.services.mise-history]
