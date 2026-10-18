@@ -51,7 +51,7 @@ zsh = true
 
 [bootstrap.services.tailscale]
 scope = "user"
-command = "tailscale"
+command = "tailscaled"
 
 [history.encryption]
 recipients = [
