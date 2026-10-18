@@ -49,9 +49,8 @@ builtin = "history-watch"
 [bootstrap.mise_shell_activate]
 zsh = true
 
-[bootstrap.services.tailscale]
-scope = "user"
-command = "tailscaled"
+[bootstrap.macos.launchd.agents.tailscale]
+program = "tailscaled"
 
 [history.encryption]
 recipients = [
