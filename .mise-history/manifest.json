@@ -8,6 +8,12 @@
       "variants": []
     },
     {
+      "path": "home/.claude/settings.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/ghostty/config.ghostty",
       "autosave": true,
       "encrypt": false,
@@ -29,6 +35,7 @@
   "exclude": [],
   "recipients": [],
   "permissions": {
+    "home/.claude/settings.json": 384,
     "home/.config": 489
   }
 }
