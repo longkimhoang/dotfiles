@@ -34,6 +34,7 @@ builtin = "history-watch"
 "brew:age" = "latest"
 "brew:age-plugin-se" = "latest"
 "brew:tree-sitter-cli" = "latest"
+"brew:tailscale" = "latest"
 
 "brew-cask:ghostty" = "latest"
 "brew-cask:google-chrome" = "latest"
