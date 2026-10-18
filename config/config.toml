@@ -5,6 +5,10 @@
 "~/.zshenv/local-bin" = { line = 'export PATH="$HOME/.local/bin:$PATH"' }
 "~/.zshrc" = { mode = "track" }
 "~/.zshrc/zoxide" = { line = 'eval "$(zoxide init zsh)"' }
+"~/.zshrc/aliases" = { block = '''
+alias vi = 'nvim'
+alias vim ' nvim'
+''' }
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
