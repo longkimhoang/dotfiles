@@ -20,9 +20,10 @@ builtin = "history-watch"
 "go" = "latest"
 
 "claude" = "latest"
+"stylua" = "latest"
+
 "cargo:zoxide" = "latest"
 "npm:oxfmt" = "latest"
-"stylua" = "latest"
 
 [bootstrap.packages]
 "brew:tmux" = "latest"
