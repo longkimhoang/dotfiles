@@ -46,5 +46,5 @@ zsh = true
 [history.encryption]
 recipients = [
   "age1tag1qwn3a3aq9am4xvcggfgnu80p02c0whctqq2j0mufzrd23qvm9hlp6uj5xzn",
-  "age1sh9dg4zttc39dyzmjxk2c62sfyshv6gpss8aa33nl2fe5pxnfgyse58unt"
+  "age1sh9dg4zttc39dyzmjxk2c62sfyshv6gpss8aa33nl2fe5pxnfgyse58unt",
 ]
