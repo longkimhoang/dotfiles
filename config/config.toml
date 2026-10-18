@@ -24,6 +24,7 @@ builtin = "history-watch"
 
 "cargo:zoxide" = "latest"
 "npm:oxfmt" = "latest"
+uv = "latest"
 
 [bootstrap.packages]
 "brew:tmux" = "latest"
