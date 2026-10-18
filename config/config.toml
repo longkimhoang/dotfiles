@@ -17,7 +17,6 @@ builtin = "history-watch"
 [tools]
 "rust" = "latest"
 "claude" = "latest"
-"cargo:zoxide" = "latest"
 
 [bootstrap.packages]
 "brew:neovim" = "latest"
@@ -35,6 +34,8 @@ builtin = "history-watch"
 "brew-cask:claude" = "latest"
 
 "brew-cask:font-paper-mono" = "latest"
+
+"cargo:zoxide" = "latest"
 
 [bootstrap.mise_shell_activate]
 zsh = true
