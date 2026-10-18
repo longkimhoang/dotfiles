@@ -49,7 +49,7 @@ builtin = "history-watch"
 [bootstrap.mise_shell_activate]
 zsh = true
 
-[bootstrap.services.tailscaled]
+[bootstrap.services.tailscale]
 scope = "user"
 command = "tailscaled"
 
