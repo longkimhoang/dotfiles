@@ -1,5 +1,5 @@
 [dotfiles]
-"~/.claude" = { mode = "track", include = ["settings.json", "CLAUDE.md", "keybindings.json", "commands/**", "agents/**", "skills/**"], exclude = ["/skills/synced", ".trash"] }
+"~/.claude" = { mode = "track", include = ["settings.json", "CLAUDE.md", "keybindings.json", "commands/**", "agents/**", "skills/**"], exclude = ["/skills/synced", ".trash", ".credentials.json", "settings.local.json"] }
 "~/.config/ghostty/config.ghostty" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nvim" = { mode = "track" }

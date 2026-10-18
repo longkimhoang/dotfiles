@@ -14,7 +14,9 @@
       "variants": [],
       "exclude": [
         "/skills/synced",
-        ".trash"
+        ".trash",
+        ".credentials.json",
+        "settings.local.json"
       ],
       "include": [
         "settings.json",
