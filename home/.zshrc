@@ -13,3 +13,4 @@ alias vim='nvim'
 # <<< mise:aliases <<<
 
 eval "$(zoxide init zsh)"
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
