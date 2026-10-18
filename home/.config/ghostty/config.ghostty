@@ -1,6 +1,6 @@
 font-size = 14
 font-family = Paper Mono
-font-thicken = true
+font-style = Medium 
 
 theme = light:Rose Pine Dawn,dark:Rose Pine
 
