@@ -24,6 +24,8 @@ builtin = "history-watch"
 
 "cargo:zoxide" = "latest"
 "npm:oxfmt" = "latest"
+"go:tailscale.com/cmd/tailscale" = "1.104.1"
+"go:tailscale.com/cmd/tailscaled" = "1.104.1"
 
 [bootstrap.packages]
 "brew:tmux" = "latest"
