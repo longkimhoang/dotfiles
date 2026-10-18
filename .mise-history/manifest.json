@@ -8,12 +8,6 @@
       "variants": []
     },
     {
-      "path": "home/.config/ghostty/config.ghostty",
-      "autosave": true,
-      "encrypt": false,
-      "variants": []
-    },
-    {
       "path": "home/.zshrc",
       "autosave": true,
       "encrypt": false,
@@ -22,7 +16,5 @@
   ],
   "exclude": [],
   "recipients": [],
-  "permissions": {
-    "home/.config": 489
-  }
+  "permissions": {}
 }

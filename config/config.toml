@@ -2,7 +2,6 @@
 "~/.zshenv/local-bin" = { line = 'export PATH="$HOME/.local/bin:$PATH"' }
 "~/.zshrc" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
-"~/.config/ghostty/config.ghostty" = { mode = "track" }
 
 [bootstrap.services.mise-history]
 builtin = "history-watch"
