@@ -9,6 +9,7 @@ builtin = "history-watch"
 
 [tools]
 "claude" = "latest"
+"age" = "latest"
 
 [bootstrap.packages]
 "brew:neovim" = "latest"
