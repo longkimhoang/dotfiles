@@ -51,7 +51,7 @@ zsh = true
 
 [bootstrap.services.tailscale]
 scope = "user"
-command = "sudo /opt/homebrew/bin/tailscaled"
+command = "/opt/homebrew/opt/tailscale/bin/tailscaled"
 
 [history.encryption]
 recipients = [
