@@ -4,6 +4,7 @@
 "~/.config/nvim" = { mode = "track" }
 "~/.zshenv/local-bin" = { line = 'export PATH="$HOME/.local/bin:$PATH"' }
 "~/.zshrc" = { mode = "track" }
+"~/.zshrc/fpath" = { line = "fpath+=('/Users/longkh/.local/share/zsh/site-functions')", position = "prepend" }
 "~/.zshrc/zoxide" = { line = 'eval "$(zoxide init zsh)"' }
 "~/.zshrc/aliases" = { block = '''
 alias vi='nvim'
