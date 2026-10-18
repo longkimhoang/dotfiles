@@ -6,9 +6,9 @@
 builtin = "history-watch"
 
 [tools]
-"xcodes" = "latest"
 
 [bootstrap.packages]
+"brew:xcodes" = "latest"
 "brew:gh" = "latest"
 "brew-cask:ghostty" = "latest"
 
