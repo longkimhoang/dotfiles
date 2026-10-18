@@ -9,6 +9,7 @@
 builtin = "history-watch"
 
 [tools]
+"rust" = "latest"
 "claude" = "latest"
 "age" = "latest"
 "github:remko/age-plugin-se" = "latest"
