@@ -18,6 +18,7 @@ builtin = "history-watch"
 "rust" = "latest"
 "node" = "latest"
 "go" = "latest"
+
 "claude" = "latest"
 "cargo:zoxide" = "latest"
 "npm:oxfmt" = "latest"
