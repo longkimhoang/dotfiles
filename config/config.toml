@@ -6,7 +6,7 @@
 builtin = "history-watch"
 
 [tools]
-"http:claude-code" = "latest"
+"claude-code" = "latest"
 
 [bootstrap.packages]
 "brew:xcodes" = "latest"
