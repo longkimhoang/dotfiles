@@ -5,6 +5,7 @@
 "~/.zshenv/local-bin" = { line = 'export PATH="$HOME/.local/bin:$PATH"' }
 "~/.zshrc" = { mode = "track" }
 
+
 [bootstrap.services.mise-history]
 builtin = "history-watch"
 
@@ -29,7 +30,7 @@ builtin = "history-watch"
 "brew-cask:font-paper-mono" = "latest"
 
 [bootstrap.mise_shell_activate]
-zprofile = "shims"
+zsh = true
 
 [history.encryption]
 recipients = [
