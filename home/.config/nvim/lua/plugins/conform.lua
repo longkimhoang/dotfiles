@@ -28,6 +28,9 @@ return {
   "stevearc/conform.nvim",
   event = "BufWritePre",
   cmd = "ConformInfo",
+  init = function()
+    vim.filetype.add({ extension = { mdx = "mdx" } })
+  end,
   keys = {
     {
       "<leader>f",
