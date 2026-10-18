@@ -10,7 +10,7 @@ builtin = "history-watch"
 [tools]
 "claude" = "latest"
 "age" = "latest"
-"github:age-plugin-se" = "latest"
+"github:remko/age-plugin-se" = "latest"
 
 [bootstrap.packages]
 "brew:neovim" = "latest"
