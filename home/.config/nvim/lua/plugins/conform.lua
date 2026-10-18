@@ -19,7 +19,7 @@ local oxfmt_filetypes = {
   "handlebars",
 }
 
-local formatters_by_ft = {}
+local formatters_by_ft = { lua = { "stylua" } }
 for _, ft in ipairs(oxfmt_filetypes) do
   formatters_by_ft[ft] = { "oxfmt" }
 end
@@ -43,18 +43,18 @@ return {
   },
   opts = function()
     return {
-    formatters_by_ft = formatters_by_ft,
-    formatters = {
-      oxfmt = {
-        command = require("conform.util").from_node_modules("oxfmt"),
-        args = { "--stdin-filepath", "$FILENAME" },
-        stdin = true,
+      formatters_by_ft = formatters_by_ft,
+      formatters = {
+        oxfmt = {
+          command = require("conform.util").from_node_modules("oxfmt"),
+          args = { "--stdin-filepath", "$FILENAME" },
+          stdin = true,
+        },
       },
-    },
-    format_on_save = {
-      timeout_ms = 1000,
-      lsp_format = "fallback",
-    },
+      format_on_save = {
+        timeout_ms = 1000,
+        lsp_format = "fallback",
+      },
     }
   end,
 }
