@@ -26,6 +26,8 @@ builtin = "history-watch"
 "brew:xcodes" = "latest"
 "brew:gh" = "latest"
 "brew:aria2" = "latest"
+"brew:age" = "latest"
+"brew:age-plugin-se" = "latest"
 
 "brew-cask:ghostty" = "latest"
 "brew-cask:google-chrome" = "latest"
