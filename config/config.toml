@@ -27,3 +27,8 @@ builtin = "history-watch"
 
 [bootstrap.mise_shell_activate]
 zprofile = "shims"
+
+[history.encryption]
+recipients = [
+  "age1sh9dg4zttc39dyzmjxk2c62sfyshv6gpss8aa33nl2fe5pxnfgyse58unt"
+]
