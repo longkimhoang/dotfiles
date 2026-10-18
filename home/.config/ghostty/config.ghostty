@@ -1,6 +1,7 @@
 font-size = 14
 font-family = Paper Mono
-font-variation = wght=600
+font-style = Medium
+font-variation = wght=700
 
 theme = light:Rose Pine Dawn,dark:Rose Pine
 
