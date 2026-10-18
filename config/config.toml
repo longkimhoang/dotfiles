@@ -6,10 +6,10 @@
 builtin = "history-watch"
 
 [tools]
-"gh" = "latest"
 "xcodes" = "latest"
 
 [bootstrap.packages]
+"brew:gh" = "latest"
 "brew-cask:ghostty" = "latest"
 
 [bootstrap.mise_shell_activate]
