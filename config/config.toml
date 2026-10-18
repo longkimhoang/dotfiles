@@ -12,6 +12,7 @@ builtin = "history-watch"
 "claude" = "latest"
 "age" = "latest"
 "github:remko/age-plugin-se" = "latest"
+"cargo:zoxide" = "latest"
 
 [bootstrap.packages]
 "brew:neovim" = "latest"
