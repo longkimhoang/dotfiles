@@ -38,7 +38,8 @@ return {
       desc = "Format buffer",
     },
   },
-  opts = {
+  opts = function()
+    return {
     formatters_by_ft = formatters_by_ft,
     formatters = {
       oxfmt = {
@@ -51,5 +52,6 @@ return {
       timeout_ms = 1000,
       lsp_format = "fallback",
     },
-  },
+    }
+  end,
 }
