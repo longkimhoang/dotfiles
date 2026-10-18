@@ -1,0 +1,16 @@
+[dotfiles]
+"~/.config/mise/config.toml" = { mode = "track" }
+"~/.zshrc" = { mode = "track" }
+
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
+[tools]
+"gh" = "latest"
+"xcodes" = "latest"
+
+[bootstrap.packages]
+"brew-cask:ghostty" = "latest"
+
+[bootstrap.mise_shell_activate]
+zprofile = "shims"
