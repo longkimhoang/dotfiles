@@ -17,8 +17,6 @@ builtin = "history-watch"
 [tools]
 "rust" = "latest"
 "claude" = "latest"
-"age" = "latest"
-"github:remko/age-plugin-se" = "latest"
 "cargo:zoxide" = "latest"
 
 [bootstrap.packages]
