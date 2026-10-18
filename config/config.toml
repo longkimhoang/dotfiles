@@ -12,6 +12,9 @@ builtin = "history-watch"
 "brew:gh" = "latest"
 
 "brew-cask:ghostty" = "latest"
+"brew-cask:google-chrome" = "latest"
+"brew-cask:bitwarden" = "latest"
+"brew-cask:protonvpn" = "latest"
 
 [bootstrap.mise_shell_activate]
 zprofile = "shims"
