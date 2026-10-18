@@ -9,7 +9,7 @@ builtin = "history-watch"
 "claude" = "latest"
 
 [bootstrap.packages]
-"brew:nvim" = "latest"
+"brew:neovim" = "latest"
 "brew:xcodes" = "latest"
 "brew:gh" = "latest"
 
