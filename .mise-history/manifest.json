@@ -13,7 +13,8 @@
       "encrypt": false,
       "variants": [],
       "exclude": [
-        "/skills/synced"
+        "/skills/synced",
+        ".trash"
       ],
       "include": [
         "settings.json",
