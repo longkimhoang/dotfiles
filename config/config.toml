@@ -32,6 +32,7 @@ builtin = "history-watch"
 "brew-cask:bitwarden" = "latest"
 "brew-cask:protonvpn" = "latest"
 "brew-cask:raycast" = "latest"
+"brew-cask:claude" = "latest"
 
 "brew-cask:font-paper-mono" = "latest"
 
