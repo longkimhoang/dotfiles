@@ -51,6 +51,7 @@ zsh = true
 
 [bootstrap.macos.launchd.agents.tailscale]
 program = "tailscaled"
+run_at_load = true
 
 [history.encryption]
 recipients = [
