@@ -22,7 +22,7 @@ builtin = "history-watch"
 "python" = "latest"
 
 "uv" = "latest"
-"claude" = "latest"
+"claude" = { version = "latest", minimum_release_age = "6h" }
 "stylua" = "latest"
 
 "cargo:zoxide" = "latest"
