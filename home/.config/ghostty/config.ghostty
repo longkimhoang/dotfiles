@@ -3,7 +3,7 @@ font-family = Paper Mono
 font-thicken = true
 font-thicken-strength = 64
 
-theme = light:Rose Pine Dawn,dark:Rose Pine
+theme = light:Rose Pine,dark:Rose Pine
 
 macos-titlebar-style = transparent
 macos-icon = chalkboard
