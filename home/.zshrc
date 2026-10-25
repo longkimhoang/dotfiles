@@ -20,3 +20,5 @@ source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 autoload -U promptinit; promptinit
 prompt pure
 # <<< mise:promt <<<
+
+export EDITOR="nvim"
