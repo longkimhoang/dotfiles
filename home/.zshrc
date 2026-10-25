@@ -1,7 +1,5 @@
-# >>> mise:fpath >>> managed by mise — do not edit between markers
 fpath+=('/Users/longkh/.local/share/zsh/site-functions')
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
-# <<< mise:fpath <<<
 
 autoload -Uz compinit
 compinit

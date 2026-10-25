@@ -8,7 +8,10 @@
 alias vi='nvim'
 alias vim='nvim'
 ''' }
-"~/.zshrc/fpath" = { line = "fpath+=('/Users/longkh/.local/share/zsh/site-functions')", position = "prepend" }
+"~/.zshrc/promt" = { block = '''
+autoload -U promptinit; promptinit
+prompt pure
+''' }
 "~/.zshrc/zoxide" = { line = 'eval "$(zoxide init zsh)"' }
 "~/.zshrc/zsh-autosuggestions" = { line = 'source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh' }
 
