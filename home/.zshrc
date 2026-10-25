@@ -6,6 +6,9 @@ fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -Uz compinit
 compinit
 
+autoload -U promptinit; promptinit
+prompt pure
+
 # >>> mise:activate >>> managed by mise — do not edit between markers
 eval "$(mise activate zsh)"
 # <<< mise:activate <<<
