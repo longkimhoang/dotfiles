@@ -21,4 +21,3 @@ autoload -U promptinit; promptinit
 prompt pure
 # <<< mise:promt <<<
 
-export EDITOR="nvim"
