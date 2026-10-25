@@ -18,6 +18,7 @@ alias vim='nvim'
 
 eval "$(zoxide init zsh)"
 source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # >>> mise:promt >>> managed by mise — do not edit between markers
 autoload -U promptinit; promptinit
 prompt pure
