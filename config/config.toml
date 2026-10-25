@@ -2,6 +2,7 @@
 "~/.config/ghostty/config.ghostty" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nvim" = { mode = "track" }
+"~/.gitconfig" = { mode = "track" }
 "~/.zshenv/local-bin" = { line = 'export PATH="$HOME/.local/bin:$PATH"' }
 "~/.zshrc" = { mode = "track" }
 "~/.zshrc/aliases" = { block = '''
