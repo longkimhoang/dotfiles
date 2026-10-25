@@ -12,7 +12,6 @@ alias vim='nvim'
 fpath+=('/Users/longkh/.local/share/zsh/site-functions')
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 ''' }
-"~/.zshrc/fpath" = { line = "fpath+=('/Users/longkh/.local/share/zsh/site-functions')", position = "prepend" }
 "~/.zshrc/zoxide" = { line = 'eval "$(zoxide init zsh)"' }
 "~/.zshrc/zsh-autosuggestions" = { line = 'source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh' }
 
