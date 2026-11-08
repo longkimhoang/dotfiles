@@ -50,7 +50,6 @@ builtin = "history-watch"
 "brew-cask:claude" = "latest"
 "brew-cask:betterdisplay" = "latest"
 "brew-cask:tailscale-app" = "latest"
-"brew-cask:keka" = "latest"
 
 "brew-cask:font-paper-mono" = "latest"
 
