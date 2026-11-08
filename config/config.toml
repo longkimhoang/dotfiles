@@ -42,6 +42,8 @@ builtin = "history-watch"
 "brew:age-plugin-se" = "latest"
 "brew:tree-sitter-cli" = "latest"
 "brew:zsh-autosuggestions" = "latest"
+"brew:googleworkspace-cli" = "latest"
+"brew:pure" = "latest"
 
 "brew-cask:ghostty" = "latest"
 "brew-cask:google-chrome" = "latest"
